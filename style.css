@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: hsla(152, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+max-height: 100%;
+flex-direction: column;
+}
+input {
+    background-color: rgb(25, 224, 231);
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 2px solid rgb(18, 90, 247);
+}
+input::placeholder {
+    color: white;
+    
+}
+.card {
+    background-image: linear-gradient(140deg, #17fd6b 0%, #0d9de6 100%);
+    border-radius: 20px;
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+}
+.avatar {
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.user-info {
+    color: white;
+    margin-left: 20px;
+}
+
+.img-container img {
+    margin-top: .5rem;
+   margin-left: -1.5rem;
+    margin-right: 1.3rem;
+    
+}
+.user-info h2 {
+    margin-top: 0;
+}
+.info {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    padding: 0;
+    margin-left: -14px;
+}
+.user-info ul li strong {
+    font-size: 1.5rem;
+    color: rgb(83, 24, 192);
+    margin-right: .7rem;
+    margin-left: .7rem
+}
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+.user-info ul :not(strong) {
+    color: black;
+}
+.repo {
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.repo:hover {
+    background-color: tomato;
+}
+.reposs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    color: brown;
+    
+}
